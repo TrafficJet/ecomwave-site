@@ -1,0 +1,106 @@
+---
+import Base from '../layouts/Base.astro';
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'EcomWave Shopify Product Description Generator',
+  applicationCategory: 'BusinessApplication',
+  description: 'AI-powered Shopify product description generator. Create SEO-optimized, unique descriptions in seconds.',
+  url: 'https://ecomwave.app/shopify-product-description-generator/',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+};
+---
+
+<Base
+  title="Shopify Product Description Generator — AI-Powered, SEO-Optimized | EcomWave"
+  description="Generate unique, SEO-optimized Shopify product descriptions in seconds with AI. No more generic copy. Rank higher and convert better."
+  schema={schema}
+>
+
+  <section class="bg-gradient-to-br from-brand-50 to-white pt-14 pb-16 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-sm text-brand-600 font-medium mb-3">
+        <a href="/" class="hover:underline">EcomWave</a> › Product Description Generator
+      </div>
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Shopify Product Description Generator
+      </h1>
+      <p class="text-lg text-gray-600 max-w-2xl mb-8">
+        Stop writing product descriptions manually. EcomWave uses AI to generate unique, keyword-rich descriptions that rank on Google and convert visitors into buyers.
+      </p>
+      <a href="https://apps.shopify.com/ecomwave" class="inline-block bg-brand-600 hover:bg-brand-700 text-white font-semibold px-7 py-3.5 rounded-xl transition-colors shadow-md shadow-brand-200">
+        Try Free — No Credit Card
+      </a>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-14">
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">Why your product descriptions matter for SEO</h2>
+    <div class="prose prose-gray max-w-none">
+      <p>Google can't see your product images. It reads your text. If your product descriptions are short, generic, or duplicated from a supplier sheet, Google has no reason to rank your product pages — and shoppers have no reason to trust you.</p>
+      <p>The average Shopify store has 150–500 products. Writing unique, optimized descriptions for all of them manually would take weeks. EcomWave generates them in minutes.</p>
+
+      <h3>What makes a good Shopify product description?</h3>
+      <ul>
+        <li><strong>Unique:</strong> Not copy-pasted from the manufacturer. Google penalizes duplicate content.</li>
+        <li><strong>Keyword-rich:</strong> Includes the specific terms your buyers use when searching.</li>
+        <li><strong>Benefit-focused:</strong> Explains why the product solves a problem, not just what it is.</li>
+        <li><strong>Appropriate length:</strong> 100–300 words for most products. More for high-consideration items.</li>
+      </ul>
+
+      <h3>How EcomWave generates descriptions</h3>
+      <p>Enter your product title, key attributes (material, size, color, use case), and target audience. EcomWave generates a description that:</p>
+      <ul>
+        <li>Uses your target keywords naturally</li>
+        <li>Follows Google's content quality guidelines</li>
+        <li>Is 100% unique (not templated)</li>
+        <li>Includes benefit-led copy that increases conversion</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Demo widget placeholder -->
+  <section class="bg-gray-50 py-14 px-4">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-2xl font-bold text-gray-900 mb-2 text-center">Try it now</h2>
+      <p class="text-center text-gray-500 mb-8">Install EcomWave to generate descriptions directly in your Shopify admin</p>
+      <div class="bg-white border border-gray-200 rounded-2xl p-8 text-center">
+        <div class="w-16 h-16 bg-brand-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <svg class="w-8 h-8 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+        </div>
+        <h3 class="font-bold text-gray-900 mb-2">Available inside Shopify</h3>
+        <p class="text-gray-500 text-sm mb-6">EcomWave runs directly in your Shopify admin. Install the app to generate descriptions for any product in your catalog.</p>
+        <a href="https://apps.shopify.com/ecomwave" class="inline-block bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors">
+          Install EcomWave on Shopify
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-14">
+    <h2 class="text-2xl font-bold text-gray-900 mb-8">What merchants say</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      {[
+        ['★★★★★', 'Updated all 320 product descriptions in one afternoon. My organic sessions went up 34% in 6 weeks.', 'Jake M., outdoor gear store'],
+        ['★★★★★', 'Finally my products show up in Google. The descriptions actually sound like a human wrote them — not a robot template.', 'Sarah K., fashion boutique'],
+        ['★★★★★', 'Worth every penny for the Pro plan. I cancelled two other SEO apps after this one did everything they did.', 'Raj P., electronics retailer'],
+      ].map(([stars, review, author]) => (
+        <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100">
+          <div class="text-brand-500 mb-3 text-lg">{stars}</div>
+          <p class="text-sm text-gray-700 mb-4">"{review}"</p>
+          <p class="text-xs text-gray-500">— {author}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="bg-brand-700 py-14 px-4 text-center">
+    <h2 class="text-2xl font-bold text-white mb-4">Generate your first description free</h2>
+    <p class="text-brand-200 mb-6">Free plan: 5 products/month. Pro: unlimited for $29/mo.</p>
+    <a href="https://apps.shopify.com/ecomwave" class="inline-block bg-white text-brand-700 font-bold px-8 py-4 rounded-xl hover:bg-brand-50 transition-colors">
+      Install EcomWave Free
+    </a>
+  </section>
+
+</Base>

@@ -1,0 +1,16 @@
+# EcomWave
+
+> AI-powered SEO tools for Shopify stores. Generate optimized product descriptions, meta tags, and titles in seconds.
+
+## Tools
+- [Product Description Generator](https://ecomwave.app/shopify-product-description-generator/) — AI-generated SEO product descriptions
+- [Meta Tags Optimizer](https://ecomwave.app/shopify-meta-tags-optimizer/) — Title tags and meta descriptions
+- [Bulk SEO](https://ecomwave.app/bulk-product-seo-shopify/) — Optimize entire catalog at once
+- [Title Generator](https://ecomwave.app/shopify-product-title-generator/) — Keyword-rich product titles
+
+## Blog
+- [Shopify SEO Blog](https://ecomwave.app/blog/) — Guides and tactics for Shopify merchants
+
+## Pricing
+- Free: 5 products/month
+- Pro: $29/month, unlimited, 14-day free trial

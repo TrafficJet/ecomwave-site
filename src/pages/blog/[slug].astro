@@ -1,0 +1,82 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.data.slug || post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.data.title,
+  description: post.data.description || '',
+  datePublished: new Date(post.data.pubDate).toISOString(),
+  author: {
+    '@type': 'Organization',
+    name: 'EcomWave Team',
+    url: 'https://ecomwave.app/',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'EcomWave',
+    url: 'https://ecomwave.app/',
+    logo: { '@type': 'ImageObject', url: 'https://ecomwave.app/favicon.svg' },
+  },
+};
+---
+
+<Base
+  title={`${post.data.title} | EcomWave Blog`}
+  description={post.data.description || ''}
+  canonicalUrl={`https://ecomwave.app/blog/${post.data.slug || post.slug}/`}
+  type="article"
+  schema={articleSchema}
+>
+
+  <section class="pt-14 pb-6 px-4 bg-gradient-to-br from-brand-50 to-white">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-sm text-brand-600 font-medium mb-4">
+        <a href="/" class="hover:underline">EcomWave</a> ›
+        <a href="/blog/" class="hover:underline">Blog</a> ›
+        {post.data.title}
+      </div>
+      <div class="flex flex-wrap gap-2 mb-4">
+        {(post.data.tags || []).map(tag => (
+          <span class="bg-brand-100 text-brand-700 text-xs font-medium px-2 py-0.5 rounded-full">{tag}</span>
+        ))}
+      </div>
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{post.data.title}</h1>
+      <div class="flex items-center gap-3 text-sm text-gray-500">
+        <span>By {post.data.author}</span>
+        <span>·</span>
+        <span>{new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+      </div>
+    </div>
+  </section>
+
+  <article class="max-w-3xl mx-auto px-4 py-12">
+    <div class="prose prose-gray prose-headings:font-bold prose-a:text-brand-600 max-w-none">
+      <Content />
+    </div>
+  </article>
+
+  <!-- CTA -->
+  <section class="max-w-3xl mx-auto px-4 pb-16">
+    <div class="bg-brand-50 border border-brand-200 rounded-2xl p-8 text-center">
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Optimize your Shopify SEO automatically</h3>
+      <p class="text-gray-600 mb-5">EcomWave generates SEO-optimized product descriptions, meta tags, and titles — directly in your Shopify admin.</p>
+      <a href="https://apps.shopify.com/ecomwave" class="inline-block bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors">
+        Install EcomWave Free — 14-day trial
+      </a>
+    </div>
+  </section>
+
+</Base>

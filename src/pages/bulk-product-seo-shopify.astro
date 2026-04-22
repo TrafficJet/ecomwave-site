@@ -1,0 +1,75 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Bulk Product SEO for Shopify — Optimize 1000s of Products at Once | EcomWave"
+  description="Optimize all your Shopify product descriptions and meta tags in bulk. Process 50 to 5,000 products in minutes with AI-powered bulk SEO."
+>
+
+  <section class="bg-gradient-to-br from-brand-50 to-white pt-14 pb-16 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-sm text-brand-600 font-medium mb-3">
+        <a href="/" class="hover:underline">EcomWave</a> › Bulk SEO
+      </div>
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Bulk Product SEO for Shopify
+      </h1>
+      <p class="text-lg text-gray-600 max-w-2xl mb-8">
+        Don't optimize products one at a time. EcomWave's bulk mode processes your entire catalog — descriptions, meta titles, and meta descriptions — in a single run.
+      </p>
+      <a href="https://apps.shopify.com/ecomwave" class="inline-block bg-brand-600 hover:bg-brand-700 text-white font-semibold px-7 py-3.5 rounded-xl transition-colors">
+        Try Free
+      </a>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-14">
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">How bulk SEO works in EcomWave</h2>
+    <div class="space-y-4">
+      {[
+        ['1. Select products', 'Choose all products, a collection, or filter by missing descriptions, empty meta tags, or short content.'],
+        ['2. Set your template', 'Define tone, keywords to include, target audience, and content rules once. EcomWave applies them consistently across all products.'],
+        ['3. Run batch process', 'EcomWave generates unique content for each product simultaneously — 50 products in under 2 minutes.'],
+        ['4. Review and publish', 'Preview any generated content before publishing. Approve all or cherry-pick changes to specific products.'],
+      ].map(([step, desc]) => (
+        <div class="flex gap-4 bg-gray-50 rounded-2xl p-5 border border-gray-100">
+          <div class="w-8 h-8 bg-brand-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-0.5">{step[0]}</div>
+          <div>
+            <p class="font-bold text-gray-900 mb-1">{step}</p>
+            <p class="text-sm text-gray-600">{desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-14 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-bold text-gray-900 mb-3">Time saved with bulk processing</h2>
+      <p class="text-gray-500 mb-10">Assuming 8 minutes to write one manual product description</p>
+      <div class="grid grid-cols-3 gap-6">
+        {[
+          ['50 products', '400 min manual', '~2 min with EcomWave'],
+          ['200 products', '26 hours manual', '~8 min with EcomWave'],
+          ['1,000 products', '133 hours manual', '~40 min with EcomWave'],
+        ].map(([size, manual, ew]) => (
+          <div class="bg-white rounded-2xl p-5 border border-gray-200">
+            <p class="font-bold text-gray-900 mb-3">{size}</p>
+            <p class="text-sm text-red-500 mb-1">{manual}</p>
+            <p class="text-sm text-brand-600 font-semibold">{ew}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-brand-700 py-14 px-4 text-center">
+    <h2 class="text-2xl font-bold text-white mb-4">Optimize your entire catalog today</h2>
+    <p class="text-brand-200 mb-6">Bulk processing available on Pro plan — $29/mo with 14-day free trial.</p>
+    <a href="https://apps.shopify.com/ecomwave" class="inline-block bg-white text-brand-700 font-bold px-8 py-4 rounded-xl hover:bg-brand-50 transition-colors">
+      Start Free Trial
+    </a>
+  </section>
+
+</Base>

@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Shopify Product Title Generator — SEO-Optimized Titles | EcomWave"
+  description="Generate click-worthy, SEO-optimized Shopify product titles in seconds. Get more organic traffic and higher click-through rates with AI-powered title suggestions."
+>
+
+  <section class="bg-gradient-to-br from-brand-50 to-white pt-14 pb-16 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-sm text-brand-600 font-medium mb-3">
+        <a href="/" class="hover:underline">EcomWave</a> › Product Title Generator
+      </div>
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Shopify Product Title Generator
+      </h1>
+      <p class="text-lg text-gray-600 max-w-2xl mb-8">
+        Your product title is your #1 on-page SEO element. EcomWave generates optimized titles that include the right keywords, the right format, and the right length.
+      </p>
+      <a href="https://apps.shopify.com/ecomwave" class="inline-block bg-brand-600 hover:bg-brand-700 text-white font-semibold px-7 py-3.5 rounded-xl transition-colors">
+        Try Free
+      </a>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-14">
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">Product title formula that ranks</h2>
+    <div class="bg-brand-50 border border-brand-200 rounded-2xl p-6 mb-8">
+      <p class="font-mono text-brand-800 text-center text-lg">
+        [Primary keyword] + [Key attribute] + [Benefit/Use case] + [Brand/Trust signal]
+      </p>
+    </div>
+    <p class="text-gray-600 mb-6">EcomWave applies this structure (and variations of it) to every title it generates. The result: product titles that match how your customers actually search.</p>
+
+    <div class="space-y-4">
+      {[
+        ['Generic → Optimized', '"Running Shoes" → "Men\'s Lightweight Running Shoes — Breathable Mesh, Wide Toe Box, Sizes 8–14"'],
+        ['Attribute-led → Keyword-led', '"Blue Ceramic Mug" → "Handmade Ceramic Coffee Mug — 16oz, Microwave Safe, Blue Glaze"'],
+        ['SKU title → Readable', '"PRD-4471-BLK-M" → "Men\'s Classic Crew Neck T-Shirt — 100% Cotton, Pre-Shrunk, Black"'],
+      ].map(([label, example]) => (
+        <div class="bg-gray-50 rounded-xl p-4 border border-gray-100">
+          <p class="text-xs font-medium text-brand-600 uppercase tracking-wide mb-1">{label}</p>
+          <p class="text-sm text-gray-700">{example}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="bg-brand-700 py-14 px-4 text-center">
+    <h2 class="text-2xl font-bold text-white mb-4">Generate better product titles today</h2>
+    <p class="text-brand-200 mb-6">Free plan: 5 products. Pro: unlimited catalog for $29/mo.</p>
+    <a href="https://apps.shopify.com/ecomwave" class="inline-block bg-white text-brand-700 font-bold px-8 py-4 rounded-xl hover:bg-brand-50 transition-colors">
+      Install EcomWave Free
+    </a>
+  </section>
+
+</Base>

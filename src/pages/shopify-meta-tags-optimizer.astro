@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Shopify Meta Tags Optimizer — Title Tags & Meta Descriptions | EcomWave"
+  description="Optimize your Shopify meta titles and meta descriptions with AI. Preview exactly how you'll appear in Google search results. Bulk update thousands of products."
+>
+
+  <section class="bg-gradient-to-br from-brand-50 to-white pt-14 pb-16 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-sm text-brand-600 font-medium mb-3">
+        <a href="/" class="hover:underline">EcomWave</a> › Meta Tags Optimizer
+      </div>
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Shopify Meta Tags Optimizer
+      </h1>
+      <p class="text-lg text-gray-600 max-w-2xl mb-8">
+        Your meta title and meta description are your store's billboard in Google search. EcomWave optimizes them automatically — the right keywords, the right length, the right format.
+      </p>
+      <a href="https://apps.shopify.com/ecomwave" class="inline-block bg-brand-600 hover:bg-brand-700 text-white font-semibold px-7 py-3.5 rounded-xl transition-colors">
+        Try Free
+      </a>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-14">
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">What Shopify meta tags affect</h2>
+    <div class="grid md:grid-cols-3 gap-6 mb-10">
+      {[
+        ['Click-through rate', 'A well-written meta description can increase CTR by 20–30% without changing your rank.'],
+        ['Keyword relevance', 'Google matches your title tag keywords against search queries. Missing keywords = missing traffic.'],
+        ['Rich snippets', 'Correct meta structure makes your listings eligible for product rich results in Google Shopping.'],
+      ].map(([title, desc]) => (
+        <div class="bg-gray-50 rounded-2xl p-5 border border-gray-100">
+          <h3 class="font-bold text-gray-900 mb-2 text-sm">{title}</h3>
+          <p class="text-sm text-gray-600">{desc}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Google SERP preview</h2>
+    <p class="text-gray-600 mb-6">EcomWave shows you exactly how your product will appear in search results before you save. Adjust in real time until it's perfect.</p>
+
+    <!-- SERP preview mockup -->
+    <div class="border border-gray-200 rounded-2xl p-6 bg-white">
+      <p class="text-xs text-gray-400 uppercase tracking-wide mb-4">Google Search Preview</p>
+      <div class="space-y-1">
+        <p class="text-lg text-blue-600 hover:underline cursor-pointer truncate">Men's Black Cotton T-Shirt | Free Shipping on $50+ — YourStore.com</p>
+        <p class="text-sm text-green-700">https://yourstore.myshopify.com › products › mens-black-tshirt</p>
+        <p class="text-sm text-gray-700">Shop our best-selling men's black t-shirt. 100% cotton, pre-shrunk, sizes S–XL. Free shipping on orders over $50. 4.9★ from 1,200 reviews.</p>
+      </div>
+      <p class="text-xs text-brand-600 mt-3">← EcomWave generates this automatically from your product data</p>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-14 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6">Meta tag optimization rules EcomWave follows</h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        {[
+          ['Title length', '50–60 characters (truncation-safe)'],
+          ['Meta description length', '150–160 characters'],
+          ['Primary keyword placement', 'First 3 words of title tag'],
+          ['Brand inclusion', 'Brand name at the end of title'],
+          ['Unique per page', 'No duplicate meta across products'],
+          ['CTA in meta description', 'Action words that increase CTR'],
+        ].map(([rule, detail]) => (
+          <div class="flex items-start gap-3 bg-white rounded-xl p-4 border border-gray-100">
+            <span class="text-brand-600 text-lg mt-0.5">✓</span>
+            <div>
+              <p class="font-medium text-gray-900 text-sm">{rule}</p>
+              <p class="text-xs text-gray-500">{detail}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-brand-700 py-14 px-4 text-center">
+    <h2 class="text-2xl font-bold text-white mb-4">Fix your meta tags in minutes</h2>
+    <p class="text-brand-200 mb-6">Free for up to 5 products. Pro handles your entire catalog.</p>
+    <a href="https://apps.shopify.com/ecomwave" class="inline-block bg-white text-brand-700 font-bold px-8 py-4 rounded-xl hover:bg-brand-50 transition-colors">
+      Install EcomWave Free
+    </a>
+  </section>
+
+</Base>
