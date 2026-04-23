@@ -6,6 +6,8 @@ description: "Use our free Shopify break even calculator to find exactly how man
 author: "Alex Morgan"
 tags: ["shopify break even calculator"]
 seoTitle: "Shopify Break Even Calculator: Find Your Number Fast"
+heroImage: "/images/shopify-break-even-calculator/hero.jpg"
+heroImageAlt: "Person reviewing financial calculations and formulas on laptop with notebook"
 ---
 
 # Shopify Break Even Calculator: Find Your Number Fast
