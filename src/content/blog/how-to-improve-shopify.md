@@ -6,6 +6,8 @@ description: "8 concrete ways to improve your Shopify store: audit, speed optimi
 author: "Alex Morgan"
 tags: ["how to improve shopify"]
 seoTitle: "How to Improve Your Shopify Store in 2026 | EcomWave"
+heroImage: "/images/how-to-improve-shopify/hero.jpg"
+heroImageAlt: "Shopify analytics dashboard displaying conversion rates, traffic sources, and performance metrics on a laptop screen"
 ---
 
 # How to Improve Your Shopify Store in 2026
