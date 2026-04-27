@@ -6,6 +6,8 @@ description: "Learn how to launch a profitable US ecommerce store in 2026. Step-
 author: "Alex Morgan"
 tags: ["ecommerce tutorial 2026"]
 seoTitle: "Ecommerce Tutorial 2026: Build & Grow Your Store | EcomWave"
+heroImage: "/images/ecommerce-tutorial-2026/hero.jpg"
+heroImageAlt: "Modern ecommerce dashboard displayed on laptop with analytics and inventory management visible"
 ---
 
 # Ecommerce Tutorial 2026: Build & Grow Your Store
