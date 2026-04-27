@@ -6,6 +6,8 @@ description: "Complete ecommerce checklist for 2026: platform setup, product pag
 author: "Alex Morgan"
 tags: ["ecommerce checklist"]
 seoTitle: "Ecommerce Checklist 2026: Launch & Grow Your Store | EcomWave"
+heroImage: "/images/ecommerce-checklist/hero.jpg"
+heroImageAlt: "Ecommerce store dashboard displaying product catalog and checkout settings on laptop screen"
 ---
 
 # Ecommerce Checklist: Launch & Grow Your Store in 2026
