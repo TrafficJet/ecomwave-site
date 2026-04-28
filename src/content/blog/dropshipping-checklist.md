@@ -6,6 +6,8 @@ description: "Complete dropshipping checklist for 2026: niche validation, suppli
 author: "Alex Morgan"
 tags: ["dropshipping checklist"]
 seoTitle: "Dropshipping Checklist: 9-Step Launch & Scale Guide 2026 | EcomWave"
+heroImage: "/images/dropshipping-checklist/hero.jpg"
+heroImageAlt: "Organized checklist and planning materials on a desk with laptop and notepad"
 ---
 
 # Dropshipping Checklist: Launch & Scale in 2026
