@@ -6,6 +6,8 @@ description: "Complete dropshipping tutorial for 2026. Learn niche selection, su
 author: "Alex Morgan"
 tags: ["dropshipping tutorial 2026"]
 seoTitle: "Dropshipping Tutorial 2026: Start & Scale Your Store Fast | EcomWave"
+heroImage: "/images/dropshipping-tutorial-2026/hero.jpg"
+heroImageAlt: "E-commerce dashboard showing sales metrics and order fulfillment on a laptop screen"
 ---
 
 # Dropshipping Tutorial 2026: Start & Scale Fast
