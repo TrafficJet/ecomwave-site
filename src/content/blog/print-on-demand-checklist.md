@@ -6,6 +6,8 @@ description: "Complete POD checklist from niche validation to first sale. Avoid 
 author: "Alex Morgan"
 tags: ["print on demand checklist"]
 seoTitle: "Print on Demand Checklist: Launch Your Store Without Mistakes"
+heroImage: "/images/print-on-demand-checklist/hero.jpg"
+heroImageAlt: "Organized checklist on clipboard with pen and notebook for business planning"
 ---
 
 # Print on Demand Checklist: Launch Without Mistakes
