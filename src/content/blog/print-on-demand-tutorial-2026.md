@@ -6,6 +6,8 @@ description: "Learn how to start a print on demand business in 2026. Step-by-ste
 author: "Alex Morgan"
 tags: ["print on demand tutorial 2026"]
 seoTitle: "Print on Demand Tutorial 2026: Start Selling Today | EcomWave"
+heroImage: "/images/print-on-demand-tutorial-2026/hero.jpg"
+heroImageAlt: "Print on demand designer reviewing custom t-shirt designs on computer screen"
 ---
 
 # Print on Demand Tutorial 2026: Start Selling Today
