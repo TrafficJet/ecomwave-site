@@ -6,6 +6,8 @@ description: "Complete Amazon FBA tutorial for 2026 with current fees, product r
 author: "Alex Morgan"
 tags: ["amazon fba tutorial 2026"]
 seoTitle: "Amazon FBA Tutorial 2026: Step-by-Step Beginner Guide | EcomWave"
+heroImage: "/images/amazon-fba-tutorial-2026/hero.jpg"
+heroImageAlt: "Amazon Seller Central interface showing FBA inventory management and metrics on computer screen"
 ---
 
 # Amazon FBA Tutorial 2026: Step-by-Step Beginner Guide
