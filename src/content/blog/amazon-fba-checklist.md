@@ -6,6 +6,8 @@ description: "Master Amazon FBA with our step-by-step checklist. Account setup, 
 author: "Alex Morgan"
 tags: ["amazon fba checklist"]
 seoTitle: "Amazon FBA Checklist 2026: Complete Launch Guide | EcomWave"
+heroImage: "/images/amazon-fba-checklist/hero.jpg"
+heroImageAlt: "Amazon Seller Central dashboard showing FBA inventory management and shipment tracking"
 ---
 
 # Amazon FBA Checklist: Launch Right in 2026
