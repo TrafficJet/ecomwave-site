@@ -6,6 +6,8 @@ description: "Step-by-step online store tutorial for beginners. Learn platform s
 author: "Alex Morgan"
 tags: ["online store tutorial 2026"]
 seoTitle: "Online Store Tutorial 2026: Build & Launch Fast | EcomWave"
+heroImage: "/images/online-store-tutorial-2026/hero.jpg"
+heroImageAlt: "Person setting up an online store on a laptop with product images and inventory dashboard visible"
 ---
 
 # Online Store Tutorial 2026: Build & Launch Fast
