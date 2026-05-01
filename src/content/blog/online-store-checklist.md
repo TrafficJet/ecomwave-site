@@ -6,6 +6,8 @@ description: "Complete online store checklist covering domain, products, payment
 author: "Alex Morgan"
 tags: ["online store checklist"]
 seoTitle: "Online Store Checklist: 8-Step Launch Guide for 2026 | EcomWave"
+heroImage: "/images/online-store-checklist/hero.jpg"
+heroImageAlt: "Ecommerce store dashboard on laptop showing product listings and order management interface"
 ---
 
 # Online Store Checklist: Launch Right in 2026
