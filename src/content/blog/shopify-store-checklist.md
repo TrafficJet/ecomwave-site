@@ -6,6 +6,8 @@ description: "Complete Shopify store checklist covering 6 phases from setup to f
 author: "Alex Morgan"
 tags: ["shopify store checklist"]
 seoTitle: "Shopify Store Checklist: Launch Ready in 2026 | EcomWave"
+heroImage: "/images/shopify-store-checklist/hero.jpg"
+heroImageAlt: "Shopify store dashboard displaying setup checklist and store customization options on a laptop"
 ---
 
 # Shopify Store Checklist: Launch Ready in 2026
