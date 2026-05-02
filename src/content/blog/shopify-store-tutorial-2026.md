@@ -6,6 +6,8 @@ description: "Complete step-by-step Shopify store tutorial 2026. Create, customi
 author: "Alex Morgan"
 tags: ["shopify store tutorial 2026"]
 seoTitle: "Shopify Store Tutorial 2026: Build & Launch in One Afternoon | EcomWave"
+heroImage: "/images/shopify-store-tutorial-2026/hero.jpg"
+heroImageAlt: "Shopify admin dashboard displayed on laptop screen showing store setup interface"
 ---
 
 # Shopify Store Tutorial 2026: Build & Launch Fast
