@@ -6,6 +6,8 @@ description: "Complete Shopify app checklist: vet, test performance, audit costs
 author: "Alex Morgan"
 tags: ["shopify app checklist"]
 seoTitle: "Shopify App Checklist 2026 | Vet & Install Right | EcomWave"
+heroImage: "/images/shopify-app-checklist/hero.jpg"
+heroImageAlt: "Shopify store owner reviewing installed apps and checklist on admin dashboard"
 ---
 
 # Shopify App Checklist: Pick the Right Apps in 2026
