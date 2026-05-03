@@ -6,6 +6,8 @@ description: "Learn to build & launch a Shopify app in 2026. Step-by-step guide 
 author: "Alex Morgan"
 tags: ["shopify app tutorial 2026"]
 seoTitle: "Shopify App Tutorial 2026: Build & Launch Fast | EcomWave"
+heroImage: "/images/shopify-app-tutorial-2026/hero.jpg"
+heroImageAlt: "Developer building a Shopify app in VS Code with Remix framework open on laptop"
 ---
 
 # Shopify App Tutorial 2026: Build & Launch Fast
