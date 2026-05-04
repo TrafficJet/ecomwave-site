@@ -6,6 +6,8 @@ description: "Complete Shopify theme checklist covering speed, mobile UX, access
 author: "Alex Morgan"
 tags: ["shopify theme checklist"]
 seoTitle: "Shopify Theme Checklist 2026 | Complete Guide | EcomWave"
+heroImage: "/images/shopify-theme-checklist/hero.jpg"
+heroImageAlt: "Shopify admin dashboard showing theme customization panel with multiple section options"
 ---
 
 # Shopify Theme Checklist: 2026 Complete Guide
