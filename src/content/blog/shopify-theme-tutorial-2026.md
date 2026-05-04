@@ -6,6 +6,8 @@ description: "Learn how to choose, install, and customize Shopify themes in 2026
 author: "Alex Morgan"
 tags: ["shopify theme tutorial 2026"]
 seoTitle: "Shopify Theme Tutorial 2026: Build Your Store Fast | EcomWave"
+heroImage: "/images/shopify-theme-tutorial-2026/hero.jpg"
+heroImageAlt: "Shopify theme editor open on laptop showing sections and customization options"
 ---
 
 # Shopify Theme Tutorial 2026: Build Your Store Fast
