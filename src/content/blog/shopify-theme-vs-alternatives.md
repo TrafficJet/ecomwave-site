@@ -6,6 +6,8 @@ description: "Compare Shopify themes to WooCommerce, BigCommerce, Wix, Squarespa
 author: "Alex Morgan"
 tags: ["shopify theme vs alternatives"]
 seoTitle: "Shopify Theme vs Alternatives: WooCommerce, BigCommerce & More | EcomWave"
+heroImage: "/images/shopify-theme-vs-alternatives/hero.jpg"
+heroImageAlt: "Ecommerce dashboard showing product catalog and theme customization options"
 ---
 
 # Shopify Theme vs Alternatives: Which Should You Use?
