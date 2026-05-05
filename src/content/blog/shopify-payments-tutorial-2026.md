@@ -6,6 +6,8 @@ description: "Learn how to set up Shopify Payments in 15 minutes. Step-by-step t
 author: "Alex Morgan"
 tags: ["shopify payments tutorial 2026"]
 seoTitle: "Shopify Payments Tutorial 2026: Complete Setup Guide | EcomWave"
+heroImage: "/images/shopify-payments-tutorial-2026/hero.jpg"
+heroImageAlt: "Shopify Admin dashboard displaying payment settings and transaction overview"
 ---
 
 # Shopify Payments Tutorial 2026: Setup Guide
