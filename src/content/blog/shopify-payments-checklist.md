@@ -6,6 +6,8 @@ description: "Complete Shopify Payments setup checklist covering eligibility, do
 author: "Vladislav T."
 tags: ["shopify payments checklist"]
 seoTitle: "Shopify Payments Checklist: Activate & Get Paid Faster | EcomWave"
+heroImage: "/images/shopify-payments-checklist/hero.jpg"
+heroImageAlt: "Shopify Payments setup dashboard on laptop screen showing payment configuration options"
 ---
 
 # Shopify Payments Checklist: Get Paid Faster in 2026
