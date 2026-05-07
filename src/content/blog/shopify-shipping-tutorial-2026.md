@@ -6,6 +6,8 @@ description: "Master Shopify shipping setup in 2026. Learn zones, rates, carrier
 author: "Vladislav T."
 tags: ["shopify shipping tutorial 2026"]
 seoTitle: "Shopify Shipping Tutorial 2026: Complete Setup Guide | EcomWave"
+heroImage: "/images/shopify-shipping-tutorial-2026/hero.jpg"
+heroImageAlt: "Shopify Admin dashboard open to Shipping and Delivery settings on laptop"
 ---
 
 # Shopify Shipping Tutorial 2026: Complete Setup Guide
