@@ -6,6 +6,8 @@ description: "Master the Shopify shipping checklist: 12 essential steps to reduc
 author: "Vladislav T."
 tags: ["shopify shipping checklist"]
 seoTitle: "Shopify Shipping Checklist: 12 Steps to Ship Right | EcomWave"
+heroImage: "/images/shopify-shipping-checklist/hero.jpg"
+heroImageAlt: "Warehouse worker with clipboard reviewing shipping checklist next to packaged orders"
 ---
 
 # Shopify Shipping Checklist: 12 Steps to Ship Right
