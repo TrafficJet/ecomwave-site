@@ -2,251 +2,227 @@
 title: "Shopify Shipping Checklist: 12 Steps to Ship Right"
 slug: "shopify-shipping-checklist"
 pubDate: 2026-05-13
-description: "Master your Shopify shipping setup with this 12-step checklist covering carriers, rates, packaging & tracking. Prevent costly errors and boost customer trust today."
+description: "Master Shopify shipping with this 12-step checklist. Configure zones, carrier rates, weights & customs to avoid costly errors. Start optimizing today."
 author: "Vladislav T."
 tags: ["shopify shipping checklist"]
 seoTitle: "Shopify Shipping Checklist: 12 Steps to Ship Right | EcomWave"
-heroImage: "/images/shopify-shipping-checklist/hero.jpg"
-heroImageAlt: "Shopify admin dashboard displaying shipping and delivery settings configuration"
 ---
 
 # Shopify Shipping Checklist: 12 Steps to Ship Right
 
-*By Renee Calvert, ecommerce operations consultant with 9 years of Shopify fulfillment experience*
-
-Shipping is where your store's promise meets reality. Get it wrong and you lose customers. Get it right and you build the kind of trust that drives repeat orders. This 12-step Shopify shipping checklist walks you through every setting, carrier connection, and packaging decision you need to handle before your first sale ships out the door.
+Shipping mistakes quietly drain revenue from Shopify stores every single day. This checklist walks you through every setting, carrier connection, and policy page you need to configure before your first order ships — and helps you fix what's already broken if you're mid-stream.
 
 ---
 
-## Why You Need a Shopify Shipping Checklist
+## Why a Shopify Shipping Checklist Saves You Money
 
-Shipping errors — wrong rates, late deliveries, missing tracking — are the top driver of 1-star reviews on US ecommerce stores. A single undercharged rate on a heavy product can wipe your entire margin on that order. Multiply that across dozens of sales and you're bleeding money without knowing it.
+Shipping errors cost US e-commerce stores an estimated 3–5% of revenue annually, based on fulfillment audit data (Source: Shippo State of Shipping Report, 2025). That's money lost to undercharged rates, wrong box sizes, and carrier billing adjustments you never noticed.
 
-A structured checklist stops those losses. It makes sure every setting is correct before customers start buying. It covers domestic and international setup, carrier connections, packaging, and post-purchase tracking. The stakes are real: 69% of US online shoppers say shipping speed directly influences whether they complete a purchase (Shippo State of Shipping Report, 2025).
+Unconfigured shipping zones are one of the most common causes. If a customer's region isn't covered by any zone, they can't complete checkout — and you won't see any error about it. One missed setting in your Shopify admin can mean you're absorbing $3–$7 on every order.
 
----
-
-## Step 1: Set Your Store's Shipping Origin Address
-
-Go to **Shopify Admin > Settings > Shipping and Delivery > Shipping Origins** and confirm your address is accurate down to the suite or unit number. If you ship from multiple locations — a home office, a warehouse, a 3PL — add every one.
-
-Your origin address is how carriers calculate real-time rates at checkout. A wrong or incomplete address causes label generation failures, pickup no-shows, and rate miscalculations.
-
-**Example:** One Shopify merchant in Austin, TX couldn't figure out why UPS kept rejecting pickups. Turned out their origin was set to an old apartment they'd moved out of six months earlier. Merchants who skip this step often spend hours troubleshooting label errors that trace back to a simple address mismatch.
-
-*Related reading: [Shopify Fulfillment Network Review](/shopify-fulfillment-network-review)*
+This checklist covers everything: choosing your shipping strategy, entering product weights, printing labels, handling customs, and auditing your setup quarterly. Follow it in order. You'll avoid the costly surprises that sink new stores.
 
 ---
 
-## Step 2: Add and Verify Product Weights and Dimensions
+## Step 1: Choose Your Shipping Strategy Before You Configure Anything
 
-Open every product listing and enter the accurate shipping weight in pounds/ounces or kilograms under the variant details. Then add package dimensions (length × width × height) for each item.
+You have three main options: **free shipping**, **flat-rate shipping**, and **carrier-calculated rates**. Free shipping tends to increase conversion but eats into margins. Flat-rate shipping is predictable for you and the customer. Carrier-calculated rates are the most accurate but can cause sticker shock at checkout for heavy products.
 
-This matters because UPS, FedEx, and DHL Express all use **Dimensional Weight (DIM) Pricing** — a billing method where the carrier charges based on package size rather than actual weight if the size-based calculation comes out higher. The formula is straightforward:
+Your product weight and profit margins should drive this decision. Merchants selling lightweight items with 60%+ margins often absorb shipping costs by setting a free shipping threshold. For heavy, low-margin goods, carrier-calculated rates typically protect you from losing money on every sale.
 
-> **DIM Weight = (Length × Width × Height) ÷ 139** (for inches/pounds, domestic US)
+Here's the math: say your average order value (AOV) is $55 and your average shipping cost is $9. Set your free shipping minimum at $75–$85. Customers add more to their cart, and the extra margin covers postage.
 
-If your DIM weight exceeds actual weight, you pay for the DIM weight. A lightweight pillow measuring 18 × 14 × 6 inches has a DIM weight of 10.9 lbs — even if it only weighs 1.5 lbs. Missing weights default to zero in Shopify. Customers see artificially low rates and you absorb the difference.
+**Example:** The candle brand Frostbeard Studio uses a $75 free shipping threshold, which increased their AOV by roughly 20% compared to a flat $5.99 rate.
 
-**Limitation to note:** Shopify's product weight field applies at the variant level, not the product level. If you sell a t-shirt in sizes S through 3XL, shipping weight can differ meaningfully across sizes. One weight for all variants leads to rate inaccuracies on the extremes.
+Flat-rate shipping works best when your products are similar in size and weight — think apparel brands where every order fits in the same poly mailer.
 
-*Related reading: [Shopify Shipping Rates Guide](/shopify-shipping-rates-guide)*
-
----
-
-## Step 3: Choose Your Carriers and Connect Accounts
-
-**Shopify Shipping** gives you pre-negotiated discounts with USPS, UPS, and DHL Express on every paid Shopify plan — no separate carrier account required. As of 2026, discounts reach up to 77% off standard USPS rates and up to 53% off UPS rates depending on your plan tier (Shopify, 2026).
-
-For stores processing fewer than 500 shipments per month, Shopify's built-in rates are typically the best deal. Compare them against third-party options like **Pirateship** or **EasyPost**, which aggregate multiple carriers and sometimes offer Commercial Plus pricing on USPS. If you already have a negotiated UPS or FedEx account, connect it under **Settings > Shipping > Carriers** to pull in your custom rates.
-
-**Real-world example:** Sarah runs a DTC skincare brand shipping roughly 200 orders per month. She tested Pirateship against Shopify Shipping for a full month. Shopify Shipping saved her $0.38 per label on average for USPS Ground Advantage. But Pirateship beat Shopify by $0.22 per label on UPS SurePost for heavier bundles. She now uses both depending on package weight. Merchants selling across a wide weight range often find no single platform wins on every shipment.
-
-**Trade-off:** Using two label platforms means managing two dashboards and reconciling two billing statements. For stores under 100 orders per month, the time cost of switching between platforms may outweigh the per-label savings.
-
-*Related reading: [Best Shopify Shipping Apps](/best-shopify-shipping-apps)*
+For a deeper breakdown of each model, see our [Shopify shipping rates guide](/shopify-shipping-rates-guide).
 
 ---
 
-## Step 4: Configure Shipping Zones
+## Step 2: Enter Accurate Product Weights and Dimensions
 
-Shipping zones control which rates and methods appear at checkout based on the customer's location. Navigate to **Settings > Shipping and Delivery**, select a shipping profile, and create your zones.
+Go to **Products > [specific product] > Shipping** in your Shopify admin. Enter the weight and dimensions for every single SKU. Skip this, and Shopify has no data to calculate accurate rates. Your customers overpay, or you absorb the difference.
 
-Start simple. Create a **Domestic (US)** zone and an **International** zone. You can break domestic into sub-zones later — local, regional, national — to offer different rates. For example, cheaper local delivery within your state. Only add international zones if you're ready to handle customs paperwork at launch.
+Both UPS and FedEx use **dimensional (DIM) weight pricing** — calculated by dividing the package volume (L × W × H in inches) by a DIM factor of 139 (Source: UPS Rate and Service Guide, 2026). If the DIM weight exceeds the actual weight, you're billed for the DIM weight. A large, lightweight box will cost far more than you'd expect.
 
-**Tip:** Wait until you've fulfilled at least 50 orders before splitting domestic into sub-zones. You need real shipping cost data to know which regions justify separate rate tiers. Merchants who build complex zone structures before they have order volume tend to over-engineer the setup and revise it anyway.
+Wrong weights lead to carrier billing adjustments — UPS and FedEx retroactively charge your account the difference. This creates accounting headaches and sometimes triggers customer refund requests when tracking shows unexpected charges.
 
----
-
-## Step 5: Set Up Shipping Rates and Methods
-
-You have four main options in Shopify: **flat rate**, **calculated (real-time carrier rates)**, **free shipping**, and **price- or weight-based rates**. Each has trade-offs.
-
-| Rate Type | Best For | Downside |
-|---|---|---|
-| Flat rate | Simplicity, predictable margins | Overcharges light items, undercharges heavy ones |
-| Calculated (real-time) | Accuracy across varied product weights | Requires every product to have correct weight data |
-| Free shipping | Conversion optimization | You absorb the cost; erodes margins on low-AOV orders |
-| Price- or weight-based | Stores with narrow product ranges | Requires manual maintenance as catalog changes |
-
-To set up a conditional free shipping threshold — say, free shipping on orders over $75 — go to your shipping zone, click "Add rate," select "Free shipping rate," and set the minimum order price to $75.00. This single tactic increased average order value by 12% for one home goods Shopify merchant that moved the threshold from $50 to $75 (Shopify Plus Commerce Trends, 2026).
-
-Calculated rates pull live prices from your connected carriers, but they require every product to have accurate weights. Always test calculated rates in your cart before going live. Offer at least two speed tiers — standard and expedited — to capture both budget-conscious and time-sensitive buyers.
-
-*Related reading: [Shopify Shipping Rates Guide](/shopify-shipping-rates-guide)*
+**Tip:** Always weigh and measure your product as it ships — packed in its box, with bubble wrap, inserts, whatever you use. The item weight alone isn't enough. Merchants who skip this step frequently find $1–$3 surcharges per package on their carrier invoices weeks later.
 
 ---
 
-## Step 6: Select and Stock the Right Packaging
+## Step 3: Set Up Your Shipping Zones Correctly
 
-Order free **USPS Priority Mail** boxes from usps.com — they're delivered to your door at no cost. But you can only use them with Priority Mail or Priority Mail Express service. Using a Priority Mail box with a Ground Advantage label violates USPS terms and can result in surcharges or returned packages. For soft goods under 1 lb — t-shirts, beanies, accessories — use poly mailers to minimize DIM weight.
+Navigate to **Settings > Shipping and delivery** and create zones for every region you ship to. For domestic shipping, you need at minimum: **contiguous US (48 states)**, **Alaska/Hawaii**, and **US territories** (Puerto Rico, Guam, USVI, etc.). Shipping to Alaska and Hawaii costs significantly more, so a separate zone lets you charge appropriately.
 
-Keep 3–4 box sizes on hand to reduce dead air space. Every extra inch of empty space inflates your DIM weight and costs you money. Go to **Settings > Shipping > Packages** and add your standard packaging dimensions as templates so Shopify can calculate accurate rates automatically.
+Name zones clearly — "Domestic - Lower 48," "Alaska & Hawaii," "Canada" — so you can manage rates without confusion six months from now.
 
-**Example setup for a candle brand:**
-- **Small:** 4 × 4 × 4 in (single candle)
-- **Medium:** 8 × 6 × 4 in (2-pack)
-- **Large:** 12 × 8 × 6 in (gift set)
+Don't leave zones unassigned. If a customer from Puerto Rico tries to check out and their region isn't in any zone, they'll see a "shipping not available" error and leave.
 
-Merchants who sell fragile products like candles or ceramics often find that upgrading to double-walled corrugated boxes pays for itself in reduced damage claims within the first month.
+**Example:** A pet supply store on Shopify found through a checkout audit that they'd been losing roughly 40 orders per month from Alaska and Hawaii. Those states weren't in any shipping zone. Adding a dedicated zone with adjusted rates recovered that revenue within weeks.
 
-*Related reading: [Shopify Packaging Guide](/shopify-packaging-guide)*
+For international zones, start small. Canada and the UK are typically the easiest markets for US-based stores. Expand to the EU and Australia once your fulfillment workflow is solid. Check our [Shopify international shipping guide](/shopify-international-shipping-guide) for detailed setup instructions.
 
 ---
 
-## Step 7: Set Up Shopify Shipping Labels
+## Step 4: Connect a Carrier or Third-Party App for Live Rates
 
-You can buy and print shipping labels directly from the **Shopify Orders** page — no third-party software needed when you're starting out. Click an order, select "Create shipping label," choose a carrier and service, and print.
+**Shopify Shipping** gives you built-in access to discounted USPS, UPS, and DHL Express rates on all paid plans. As of 2026, discounts can reach up to 77% off retail USPS rates and up to 53% off UPS rates, depending on your plan tier (Source: Shopify, 2026). These rates are competitive enough for most stores processing under 500 orders per month.
 
-For the best workflow, use a thermal label printer — Rollo, Zebra ZD421, or Dymo 4XL — with **4×6 labels**. Thermal printers eliminate ink cartridge costs and smudging issues entirely. A Rollo printer costs approximately $200 as of 2025. Merchants shipping more than 10 orders per day typically recoup that cost within 2–3 months compared to inkjet printing. You can batch-print up to 100 labels at once from the Orders page, which saves serious time during peak periods.
+If you need FedEx, regional carriers, or advanced automation like batch rules and split shipments, you'll want a third-party app:
 
-When you purchase a label, Shopify automatically marks the order as fulfilled and sends a tracking confirmation email to the customer. That's one less manual step in your workflow.
+- **ShipStation** handles multi-carrier rate shopping across all major carriers and is well-suited for stores managing multiple sales channels.
+- **Shippo** offers pay-per-label pricing with no monthly fee, which tends to work well for low-volume stores.
+- **EasyPost** is developer-friendly and strong for custom integrations.
 
-**Limitation:** Shopify's native label purchasing does not support every carrier service. USPS Registered Mail and certain FedEx freight services require third-party label apps or direct carrier portals.
+See our [best Shopify apps for shipping](/best-shopify-apps-for-shipping) roundup for a current comparison.
 
-*Related reading: [How to Print Shopify Shipping Labels](/how-to-print-shopify-shipping-labels)*
+**Carrier-calculated shipping rates** — meaning real-time rates displayed at checkout — require the **Shopify plan ($105/month as of 2026)** or higher. Basic plan users can access carrier-calculated rates by switching to annual billing (Source: Shopify, 2026).
 
----
-
-## Step 8: Configure Tracking Notifications
-
-Go to **Settings > Notifications** and confirm the "Shipping confirmation" email is active. This email fires automatically when a label is purchased, including the carrier tracking link.
-
-Customize the template to match your brand voice. A short, clear message with the tracking number outperforms lengthy branded emails for inbox deliverability. Also consider adding a branded tracking page through an app like **AfterShip** or **Track123** so customers check your site instead of the carrier's.
-
-Proactive tracking reduces "Where is my order?" (**WISMO** — the most common post-purchase support inquiry) tickets by up to 30% (Narvar Consumer Report, 2025). Merchants who install a branded tracking page in their first month consistently report fewer repetitive support emails and higher customer satisfaction scores.
+Before going live, test that rates actually appear at checkout. Add items to your cart, enter a shipping address, and verify the rates make sense. A blank shipping section means something is misconfigured.
 
 ---
 
-## Step 9: Plan Your Returns and Refunds Process
+## Step 5: Configure Your Packaging Profiles
 
-Enable Shopify's built-in return management system under **Settings > Shipping > Returns**. Decide upfront: will you offer free returns, customer-paid returns, or exchange-only?
+Go to **Settings > Shipping and delivery > Packages** and add every box and poly mailer size you actually use. Include the outer dimensions and the empty package weight. Shopify uses these profiles to calculate accurate carrier rates at checkout.
 
-Each model has cost implications. Free returns increase conversion but can cost 5–10% of revenue if abuse rates are high. The average return rate for US online purchases is approximately 17.6%, according to the National Retail Federation's 2024 Consumer Returns Survey. Your returns policy directly impacts profitability.
+USPS flat-rate boxes deserve their own profiles. A **USPS Priority Mail Medium Flat Rate Box** costs $17.10 as of 2026 regardless of weight (up to 70 lbs), making it a strong option for dense items like books, tools, or ceramics (Source: USPS, 2026). Create a profile for each flat-rate size you stock.
 
-Write a clear returns policy page and link it in your site footer, product pages, and checkout. You can generate on-demand return labels through Shopify so you're only charged when a customer actually ships a return — far cheaper than pre-printing labels for every order.
+Set a **default package** as a fallback. If Shopify can't match a product to a specific package profile, the default kicks in for rate calculations. Choose your most commonly used box size so the fallback rate stays realistic.
 
-**Trade-off:** Free returns can boost conversion rates. But Baymard Institute research (2024) shows that 11% of US shoppers intentionally over-order with plans to return items. A restocking fee — typically 10–20% — or an exchange-only policy can reduce this behavior while still giving customers a reasonable experience.
-
-*Related reading: [Shopify Returns Management](/shopify-returns-management)*
+**Limitation to know:** Shopify's built-in packaging profiles don't support multi-box or "bin packing" logic natively. If you regularly ship orders that need multiple boxes, a third-party app like ShipStation or Packing Peanut handles automated box selection more accurately.
 
 ---
 
-## Step 10: Prepare for International Shipping
+## Step 6: Set Up Shipping Label Printing
 
-Assign **Harmonized System (HS) codes** to every product you plan to ship abroad. HS codes are standardized numerical codes maintained by the World Customs Organization that classify traded goods. They tell customs officials what's inside the package and determine applicable duties. Add them under each product's variant details in Shopify Admin.
+You can buy and print shipping labels directly from the **Orders** page in Shopify. Select an order, click **Create shipping label**, choose a carrier and service, and print. The postage cost is billed to your Shopify account.
 
-Shopify auto-fills the declared customs value from your product price, but verify it for accuracy. Undervaluing items is illegal in most countries. Enable **Duties and Import Taxes** collection at checkout through **Shopify Markets** so buyers see the full landed cost upfront. This prevents surprise customs bills and reduces delivery refusals from international customers.
+For printer hardware, a **thermal label printer** (4×6 format) like the Rollo or DYMO 4XL eliminates ink costs and paper trimming. Merchants processing fewer than about 10 orders per day can manage with a standard inkjet printer and 8.5×11 label sheets — but it's slower and less cost-efficient over time.
 
-Restrict shipping to countries you can serve legally and profitably. Not every carrier reaches every destination, and some countries have strict import restrictions on certain goods. DHL Express covers 220+ countries, but regional surcharges can make small-value orders unprofitable.
+For high-volume days — sales events, holiday rushes — use **bulk label printing**. Select multiple orders using the checkboxes on the Orders page, click **Create shipping labels**, and Shopify generates them all in one print job.
 
-**Example:** A Brooklyn-based jewelry seller enabled duty collection through Shopify Markets and saw international delivery refusals drop from 8% to under 1% within two months. Customers appreciated knowing the total cost at checkout instead of getting a surprise customs bill.
-
-**Limitation:** Shopify Markets' duty calculation relies on accurate HS codes and product valuations. If your HS codes are wrong, customers may still face unexpected charges at delivery. Correcting HS codes across a large catalog is a time-intensive process.
-
-*Related reading: [Shopify International Shipping](/shopify-international-shipping)*
+If you make a mistake, you can **void a Shopify Shipping label within 30 days** for a full postage refund (Source: Shopify Help Center, 2026). Don't overlook this. Voiding unused $12 labels adds up fast over a month.
 
 ---
 
-## Step 11: Test Your Checkout Shipping Rates
+## Step 7: Configure Tracking Notifications to Reduce Support Tickets
 
-Before you go live, place a test order to every major shipping zone — at minimum, one domestic and one international address. Use Shopify's built-in checkout testing or create a 100% discount code and run a real order through.
+Go to **Settings > Notifications** and confirm the **Shipping confirmation** and **Shipping update** email templates are enabled. These send automatically when you mark an order as fulfilled and add a tracking number.
 
-Verify that correct rates appear, no $0.00 shipping errors sneak through, and the right methods show up for each zone. Test with products of different weights — a 6 oz item and a 5 lb item — to confirm DIM weight calculations are working.
+Customize these templates with your brand colors, logo, and a friendly tone. A branded tracking email keeps customers engaged with your store instead of sending them to a generic carrier page.
 
-A $0.00 shipping rate at checkout is one of the most common pre-launch mistakes. It usually means a product is missing its weight data. Merchants who skip this step often discover the error only after fulfilling 10–20 mispriced orders — by which point the losses are real.
+Third-party tracking pages from **AfterShip** or **Route** can reduce "where is my order?" (WISMO) support tickets — WISMO refers to the support inquiries customers submit to check on delivery status. Stores using branded tracking pages report up to 25% fewer WISMO inquiries (Source: AfterShip, 2025).
 
-*[Screenshot placeholder: Before/after of a checkout showing an incorrect $0.00 rate vs. a corrected calculated rate with USPS Ground Advantage at $7.85 and UPS Ground at $9.42]*
-
----
-
-## Step 12: Monitor, Audit, and Optimize Shipping Costs
-
-Go to **Shopify Analytics > Shipping reports** monthly and track your average shipping cost per order. Flag any orders where shipping cost exceeds 15% of the order value. That's your signal to renegotiate rates or adjust pricing.
-
-Renegotiate carrier rates annually as your volume grows. Even stores shipping 100+ packages per month can qualify for UPS and FedEx volume discounts beyond Shopify's built-in rates. Also A/B test your free shipping threshold — raising it from $50 to $75 can lift average order value without hurting conversion rates, according to 2026 Shopify merchant benchmarks (Shopify, 2026).
-
-**In my experience consulting with Shopify merchants,** stores that run quarterly shipping audits consistently spend 8–15% less on fulfillment annually than those that set rates once and forget them. Carrier rate cards change. Product catalogs evolve. Customer geography shifts. Your shipping setup should keep pace with all of it.
+SMS tracking notifications are increasingly expected by US shoppers. Over 58% of online buyers prefer text updates over email for shipping status (Source: Narvar Consumer Report, 2025). Shopify's built-in SMS notifications or an app like AfterShip can handle this. That said, SMS notifications add a small per-message cost, so factor that into your shipping budget.
 
 ---
 
-## Worked Example: Rate Comparison for a 1.2 lb Candle
+## Step 8: Write a Clear Shipping Policy Page
 
-**Product:** Soy candle, 1.2 lbs actual weight, packed in a 6 × 6 × 4 inch box
-**DIM weight:** (6 × 6 × 4) ÷ 139 = **1.04 lbs** (actual weight used since it's higher)
-**Shipping from:** Portland, OR → Chicago, IL
+Your shipping policy page should include: **estimated delivery times** (broken down by service level), **order processing cutoff times**, **carriers used**, **international shipping availability**, and **who pays duties/taxes on international orders**.
 
-| Carrier & Service | Shopify Discounted Rate | Transit Time |
-|---|---|---|
-| USPS Ground Advantage | $6.20 | 2–5 business days |
-| UPS Ground | $9.85 | 4–5 business days |
-| UPS SurePost | $7.42 | 5–7 business days |
-| FedEx Ground | $10.15 | 5 business days |
-| DHL Express (domestic) | N/A | N/A |
+Distinguish between **processing time** (how long before you hand the package to the carrier) and **transit time** (how long the carrier takes to deliver). Customers who see "ships in 3–5 business days" often assume that means delivered in 3–5 days. Be explicit: "We process orders within 1–2 business days. USPS Ground Advantage transit is 2–5 business days after shipment."
 
-*Rates based on Shopify Shipping discounted pricing as of 2026. Your rates will vary by plan, volume, and origin/destination pair.*
+The FTC requires you to ship within the timeframe you state, or you must notify the customer and offer a refund (Source: FTC Mail, Internet, or Telephone Order Merchandise Rule, 16 CFR Part 435). Don't promise next-day shipping if your actual processing time is 48 hours.
 
-For this candle, USPS Ground Advantage wins by a wide margin. But for a 5 lb gift box, UPS Ground or UPS SurePost often becomes competitive. Always compare across carriers for your specific product weights — there is no single cheapest carrier for every scenario.
+Link your shipping policy in your site **footer**, on your **product pages** (near the "Add to Cart" button), and in your **checkout**. Research from Baymard Institute (2024) shows that 64% of users look for shipping cost information before reaching checkout, making early visibility critical for reducing cart abandonment. See our [Shopify returns policy template](/shopify-returns-policy-template) for a companion returns page.
 
 ---
 
-## Shopify Shipping Checklist Quick-Reference Table
+## Step 9: Handle International Shipping and Customs
 
-| ✅ | Step | Task | Where in Shopify Admin | Priority |
-|---|---|---|---|---|
-| ☐ | 1 | Set shipping origin address(es) | Settings > Shipping > Origins | Must-Do |
-| ☐ | 2 | Add product weights & dimensions | Products > Edit Variant | Must-Do |
-| ☐ | 3 | Connect carriers | Settings > Shipping > Carriers | Must-Do |
-| ☐ | 4 | Configure shipping zones | Settings > Shipping > Profiles | Must-Do |
-| ☐ | 5 | Set shipping rates & methods | Settings > Shipping > Rates | Must-Do |
-| ☐ | 6 | Stock packaging & add templates | Settings > Shipping > Packages | Must-Do |
-| ☐ | 7 | Set up label printing | Orders > Create Label | Must-Do |
-| ☐ | 8 | Configure tracking notifications | Settings > Notifications | Must-Do |
-| ☐ | 9 | Plan returns process | Settings > Shipping > Returns | Nice-to-Have (pre-launch) |
-| ☐ | 10 | Prepare international shipping | Products > HS Codes + Shopify Markets | Nice-to-Have |
-| ☐ | 11 | Test checkout rates | Place test orders | Must-Do |
-| ☐ | 12 | Set up monthly shipping audits | Analytics > Shipping Reports | Nice-to-Have (post-launch) |
+Only enable international shipping zones when you're genuinely ready to fulfill them. Each country you add means customs paperwork, potential delays, and duty-related customer complaints.
 
-**Steps 1–8 and 11 are required before your first sale.** Steps 9, 10, and 12 can be completed post-launch but should be in place within your first 30 days.
+Add **Harmonized System (HS) codes** to every product. HS codes are internationally standardized numbers that classify traded products so customs offices can determine applicable duty rates. Go to **Products > [product] > Customs information** and enter the correct HS code and country of origin. Incorrect HS codes can get shipments held, returned, or hit with penalty duties.
+
+Decide who pays duties: **Delivered Duty Paid (DDP)** means you cover duties at checkout, giving customers a clean, predictable total. **Delivered Duty Unpaid (DDU)** means the customer pays duties on delivery, which often leads to refused packages and chargebacks. In our experience, DDU is a frequent source of negative reviews for stores new to international shipping.
+
+**Shopify Markets** automates duty and tax collection at checkout for DDP shipments, converting currency and estimating duties in real time (Source: Shopify, 2026). You'll also need proper customs documentation: a **commercial invoice** for all shipments and **CN22/CN23 forms** for postal services like USPS.
+
+**Example:** A US-based leather goods brand expanded to the UK using Shopify Markets with DDP enabled. Their international return rate dropped from 14% to 4% because customers no longer faced surprise duty charges at their door.
+
+**Tradeoff:** DDP increases your upfront costs per order and adds bookkeeping complexity, since you're responsible for calculating and remitting duties correctly. For stores with low international volume (under 50 orders/month), DDU with clear policy disclosure may be a more practical starting point.
+
+For a full walkthrough, read our [Shopify international shipping guide](/shopify-international-shipping-guide).
+
+---
+
+## Step 10: Test Your Checkout Shipping Rates End-to-End
+
+Place a **test order to every shipping zone** you've configured. Use Shopify's Bogus Gateway or your own address and a friend's address in another state, Canada, or another international zone. Verify that shipping rates actually display.
+
+Test with different cart weights. Add a single lightweight item, then add a heavy or bulky item. Confirm the rates adjust and don't stay flat when they should be changing.
+
+Verify your **free shipping threshold** triggers correctly. If your threshold is $75, add $74 worth of products and confirm the free option doesn't appear. Then add one more item to push past $75.
+
+If you've enabled DDP for international orders, confirm that duty estimates appear at checkout for an international address. A missing duty estimate means Shopify Markets isn't configured properly.
+
+Merchants who skip this testing step often find problems only after real customers report them — or worse, after silently losing sales for weeks. Budget 30–60 minutes for a thorough end-to-end test across all zones.
+
+---
+
+## Step 11: Set Up Returns Shipping
+
+Shopify lets you generate **return shipping labels** directly from the Orders dashboard. Go to the order, click **Return**, and create a prepaid label. The cost is deducted from your Shopify account.
+
+Free returns tend to increase conversion but also increase return rates. About 67% of US shoppers check the returns policy before buying, and stores offering free returns see 15–20% higher conversion rates on average (Source: National Retail Federation, 2025). Weigh this against your margin — free returns on a $20 item may not make financial sense.
+
+For a more automated return experience, **Loop Returns** and **Happy Returns** (now part of PayPal) are strong third-party options as of 2026. Loop integrates directly with Shopify and encourages exchanges over refunds, which helps retain revenue. Happy Returns offers box-free, label-free drop-off at over 10,000 US locations — that improves the customer experience but adds per-return fees to your costs.
+
+Add your return shipping policy to your shipping policy page. Clearly state who pays for return postage, the return window (30 days is standard in US e-commerce), and the condition items must be in. Link it from your order confirmation emails too.
+
+---
+
+## Step 12: Audit Your Shipping Setup Quarterly
+
+Carrier rates change every January — and sometimes mid-year. USPS, UPS, FedEx, and DHL all adjusted rates in January 2026, with average increases of 5–6% across services (Source: USPS Notice 123, 2026). Re-check the discounted rates on your Shopify plan and compare them to third-party options every quarter.
+
+Pull a report of your **actual shipping costs vs. what you charged customers** each month. If you're consistently paying $2–$3 more per order than you're collecting, that's a revenue leak. If you're overcharging, you risk cart abandonment — Baymard Institute found that 48% of US shoppers abandon carts because shipping costs are too high (Source: Baymard Institute, 2024).
+
+Update your **packaging profiles** whenever you add new product lines. A new oversized product shipping in your old default box dimensions will generate wrong rate calculations.
+
+Also confirm that any third-party shipping apps — ShipStation, Shippo, EasyPost, AfterShip — are still active and billing correctly. Expired trial periods or suspended accounts can silently break your fulfillment workflow. Set a calendar reminder. Quarterly audits take about an hour and typically pay for themselves by catching at least one costly misconfiguration.
+
+---
+
+## Quick-Reference Shopify Shipping Checklist
+
+Bookmark this page or screenshot the list below. Use it whenever you launch a new store or onboard a new product line.
+
+- [ ] **Step 1:** Choose shipping strategy (free, flat-rate, or carrier-calculated)
+- [ ] **Step 2:** Enter accurate weights and dimensions for every product (packaged weight)
+- [ ] **Step 3:** Set up all shipping zones (Lower 48, AK/HI, territories, international)
+- [ ] **Step 4:** Connect carriers or a third-party shipping app for live rates
+- [ ] **Step 5:** Add all packaging profiles; set a default package
+- [ ] **Step 6:** Configure label printing (thermal or standard) and learn how to void labels
+- [ ] **Step 7:** Enable tracking notifications (email + SMS)
+- [ ] **Step 8:** Write and link your shipping policy page
+- [ ] **Step 9:** Add HS codes, configure customs, and set DDP/DDU for international orders
+- [ ] **Step 10:** Place test orders to every zone and verify rates at checkout
+- [ ] **Step 11:** Set up return label generation and returns policy
+- [ ] **Step 12:** Schedule quarterly audits of rates, costs, and packaging profiles
+
+For related setup steps, check our guides on [how to set up Shopify Payments](/how-to-set-up-shopify-payments) and [Shopify fulfillment options compared](/shopify-fulfillment-options-compared).
 
 ---
 
 ## Frequently Asked Questions
 
-### Does Shopify Shipping work for all US sellers?
-Shopify Shipping is available to US-based stores on all paid Shopify plans (Basic, Shopify, Advanced, and Plus) as of 2026. It provides discounted USPS, UPS, and DHL Express rates without needing a separate carrier account. You buy and print labels directly from the Shopify Orders page.
+### Does Shopify charge extra for using its built-in shipping?
 
-### How do I offer free shipping on Shopify?
-Go to **Settings > Shipping and Delivery**, select a shipping profile, and add a rate. Choose "Free shipping" and set a minimum order price condition (e.g., $75+). Place a test order at the threshold amount to confirm it works before going live.
+No. Shopify Shipping is included with all paid Shopify plans. You only pay postage for the labels you purchase. Discounts on USPS, UPS, and DHL Express rates vary by plan level, with higher-tier plans receiving steeper discounts (Source: Shopify, 2026).
 
-### What is the cheapest way to ship small packages from a Shopify store?
-**USPS Ground Advantage** is typically the cheapest option for packages under 1 lb within the US. For heavier packages, compare USPS Priority Mail, UPS SurePost, and FedEx Ground using Shopify's built-in rate calculator or a tool like Pirateship. The cheapest option depends on package dimensions, weight, and destination — run comparisons for your specific products rather than relying on general rules.
+### What Shopify plan do I need for carrier-calculated shipping rates at checkout?
 
-### Can I use my own UPS or FedEx account with Shopify?
-Yes. Go to **Settings > Shipping and Delivery > Carriers** and click "Connect carrier account." Enter your UPS or FedEx account credentials. Your negotiated rates will appear at checkout alongside Shopify's default discounted rates, and you can choose which to use per label.
+Carrier-calculated rates are included on the Shopify plan ($105/month as of 2026) and above. Basic plan users can access them by switching to annual billing. On Advanced and Plus plans, carrier-calculated rates are included by default (Source: Shopify, 2026).
 
-### How do I handle international shipping taxes and duties on Shopify?
-Use **Shopify Markets** to collect duties and import taxes at checkout. Assign HS codes to your products so Shopify calculates accurate landed costs. This prevents customers from receiving surprise customs bills and reduces delivery refusals — a common reason for lost international revenue.
+### How do I avoid losing money on free shipping offers?
 
-### How often should I audit my Shopify shipping settings?
-Review your shipping setup quarterly. Check that carrier rates are still competitive, product weights are accurate for newly added SKUs, and your free shipping threshold still makes financial sense. Carrier rate changes typically take effect in January and mid-year, so those are ideal audit windows. Merchants who add new products frequently should verify weights and dimensions at the time of listing — not after the first mispriced order ships.
+Calculate your average order value and your highest typical shipping cost, then set your free shipping threshold above that combined figure. If your average shipping cost is $8 and your AOV is $55, set the threshold at $75–$85 so the extra margin from the larger cart covers postage. Revisit this calculation quarterly as carrier rates change.
+
+### Can I use multiple carriers on Shopify?
+
+Yes. Shopify Shipping supports USPS, UPS, and DHL Express natively. For additional carriers like FedEx or regional services, connect a third-party app such as ShipStation, Shippo, or EasyPost. These apps let you rate-shop across carriers at fulfillment time to find the best price and delivery speed for each order.
