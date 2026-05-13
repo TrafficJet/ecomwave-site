@@ -6,6 +6,8 @@ description: "Master Shopify shipping with this 12-step checklist. Configure zon
 author: "Vladislav T."
 tags: ["shopify shipping checklist"]
 seoTitle: "Shopify Shipping Checklist: 12 Steps to Ship Right | EcomWave"
+heroImage: "/images/shopify-shipping-checklist/hero.jpg"
+heroImageAlt: "Shopify admin dashboard displaying shipping zones and carrier settings configuration"
 ---
 
 # Shopify Shipping Checklist: 12 Steps to Ship Right
