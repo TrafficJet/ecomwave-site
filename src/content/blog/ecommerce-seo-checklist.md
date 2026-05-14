@@ -6,6 +6,8 @@ description: "Master ecommerce SEO with our 2026 checklist: technical fixes, key
 author: "Vladislav T."
 tags: ["ecommerce seo checklist"]
 seoTitle: "Ecommerce SEO Checklist 2026: Complete Guide | EcomWave"
+heroImage: "/images/ecommerce-seo-checklist/hero.jpg"
+heroImageAlt: "Ecommerce analytics dashboard displaying traffic metrics and conversion rates on laptop screen"
 ---
 
 # Ecommerce SEO Checklist: 2026 Complete Guide
