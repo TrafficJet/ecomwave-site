@@ -6,6 +6,8 @@ description: "Complete ecommerce SEO tutorial covering keyword research, on-page
 author: "Vladislav T."
 tags: ["ecommerce seo tutorial 2026"]
 seoTitle: "Ecommerce SEO Tutorial 2026: Rank & Sell More | EcomWave"
+heroImage: "/images/ecommerce-seo-tutorial-2026/hero.jpg"
+heroImageAlt: "Ecommerce store manager reviewing product page analytics and search rankings on laptop"
 ---
 
 # Ecommerce SEO Tutorial 2026: Rank & Sell More
