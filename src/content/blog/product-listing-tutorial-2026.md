@@ -6,6 +6,8 @@ description: "Master product listings across Amazon, Shopify, eBay & TikTok Shop
 author: "Vladislav T."
 tags: ["product listing tutorial 2026"]
 seoTitle: "Product Listing Tutorial 2026: Sell More Online | EcomWave"
+heroImage: "/images/product-listing-tutorial-2026/hero.jpg"
+heroImageAlt: "Seller editing product listing on laptop with marketplace dashboard visible"
 ---
 
 # Product Listing Tutorial 2026: Sell More Online
