@@ -6,6 +6,8 @@ description: "Master product listing optimization with this 12-step checklist fo
 author: "Vladislav T."
 tags: ["product listing checklist"]
 seoTitle: "Product Listing Checklist: 12 Steps to Sell More | EcomWave"
+heroImage: "/images/product-listing-checklist/hero.jpg"
+heroImageAlt: "Completed product listing checklist on clipboard next to laptop showing marketplace dashboard"
 ---
 
 # Product Listing Checklist: 12 Steps to Sell More
